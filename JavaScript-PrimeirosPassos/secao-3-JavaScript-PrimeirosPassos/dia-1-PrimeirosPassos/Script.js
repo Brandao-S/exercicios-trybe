@@ -1,8 +1,11 @@
 let a = 3;
 let b = 8;
+let c = 7;
 
-if (a > b) {
-  console.log("Parabéns 'a' é maior que 'b'!");
+if (a > b && a > c) {
+  console.log('O maior número é: ' + a + ' (a)');
+} else if (b > a && b > c) {
+  console.log('O maior número é: ' + b + ' (b)');
 } else {
-  console.log("Que pena 'a' é menor que 'b'.");
+  console.log('O maior número é: ' + c + ' (c)');
 };
